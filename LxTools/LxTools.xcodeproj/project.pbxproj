@@ -12,18 +12,7 @@
 		B30D03351A75E7E10088862E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30D03331A75E7E10088862E /* Main.storyboard */; };
 		B30D03371A75E7E10088862E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30D03361A75E7E10088862E /* Images.xcassets */; };
 		B30D033A1A75E7E10088862E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30D03381A75E7E10088862E /* LaunchScreen.xib */; };
-		B30D03461A75E7E10088862E /* LxToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30D03451A75E7E10088862E /* LxToolsTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B30D03401A75E7E10088862E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B30D03221A75E7E00088862E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B30D03291A75E7E00088862E;
-			remoteInfo = LxTools;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B30D032A1A75E7E10088862E /* LxTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		B30D03341A75E7E10088862E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B30D03361A75E7E10088862E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B30D03391A75E7E10088862E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B30D033F1A75E7E10088862E /* LxToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LxToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30D03441A75E7E10088862E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B30D03451A75E7E10088862E /* LxToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxToolsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B30D03271A75E7E00088862E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B30D033C1A75E7E10088862E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				B30D032C1A75E7E10088862E /* LxTools */,
-				B30D03421A75E7E10088862E /* LxToolsTests */,
 				B30D032B1A75E7E10088862E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B30D032A1A75E7E10088862E /* LxTools.app */,
-				B30D033F1A75E7E10088862E /* LxToolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B30D03421A75E7E10088862E /* LxToolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				B30D03451A75E7E10088862E /* LxToolsTests.swift */,
-				B30D03431A75E7E10088862E /* Supporting Files */,
-			);
-			path = LxToolsTests;
-			sourceTree = "<group>";
-		};
-		B30D03431A75E7E10088862E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B30D03441A75E7E10088862E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = B30D032A1A75E7E10088862E /* LxTools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B30D033E1A75E7E10088862E /* LxToolsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B30D034C1A75E7E10088862E /* Build configuration list for PBXNativeTarget "LxToolsTests" */;
-			buildPhases = (
-				B30D033B1A75E7E10088862E /* Sources */,
-				B30D033C1A75E7E10088862E /* Frameworks */,
-				B30D033D1A75E7E10088862E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B30D03411A75E7E10088862E /* PBXTargetDependency */,
-			);
-			name = LxToolsTests;
-			productName = LxToolsTests;
-			productReference = B30D033F1A75E7E10088862E /* LxToolsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					B30D03291A75E7E00088862E = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					B30D033E1A75E7E10088862E = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = B30D03291A75E7E00088862E;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				B30D03291A75E7E00088862E /* LxTools */,
-				B30D033E1A75E7E10088862E /* LxToolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30D033D1A75E7E10088862E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30D033B1A75E7E10088862E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B30D03461A75E7E10088862E /* LxToolsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B30D03411A75E7E10088862E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B30D03291A75E7E00088862E /* LxTools */;
-			targetProxy = B30D03401A75E7E10088862E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B30D03331A75E7E10088862E /* Main.storyboard */ = {
@@ -352,40 +266,6 @@
 			};
 			name = Release;
 		};
-		B30D034D1A75E7E10088862E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LxToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LxTools.app/LxTools";
-			};
-			name = Debug;
-		};
-		B30D034E1A75E7E10088862E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LxToolsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LxTools.app/LxTools";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,14 +285,7 @@
 				B30D034B1A75E7E10088862E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B30D034C1A75E7E10088862E /* Build configuration list for PBXNativeTarget "LxToolsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B30D034D1A75E7E10088862E /* Debug */,
-				B30D034E1A75E7E10088862E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
